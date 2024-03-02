@@ -1,0 +1,264 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    line-height: 1.5;
+}
+
+/*navbard */
+a{
+    text-decoration: none;
+}
+
+#navbard{
+    display:flex ;   
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top:0;
+    background-color: black;
+    color: #fff;
+    opacity: 70%;
+    padding: 1rem;
+    z-index: 1;
+    font-size: 22px;
+}
+#navbard ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+#navbard ul li a{
+    color:#fff;
+    font-size: 20px;
+    margin: 0 5px;
+    padding: 0.75rem;
+    transition: 0.5s;
+}
+#navbard ul li a:hover{
+    background-color: rgb(150, 6, 6);
+    border-radius:20px ;
+}
+#navbard ul li a:active{
+    background-color: rgb(0, 0, 0);
+}
+
+/* hada ta3 lbotonat li kidiwk mn blasa lkhra f shawcase
+#linkshowcase{
+    position: absolute;
+    background-color: #941d0d;
+    left: 97%;
+    top: 40%;
+    width: 25px;
+    height: 25px;
+    flex-direction: column;
+}
+#div1{
+    position: absolute;
+    background-color: #941d0d;
+    left: 97%;
+    top: 40%;
+    width: 25px;
+    height: 25px;
+}
+#div2{
+    position: absolute;
+    background-color: #0d8094;
+    left: 97%;
+    top: 45%;
+    width: 25px;
+    height: 25px;
+}
+#div3{
+    position: absolute;
+    background-color: #0d5794;
+    left: 97%;
+    top: 50%;
+    width: 25px;
+    height: 25px;
+}
+*/
+
+#showcase{
+    background: #333
+    url('GOW.jpg') no-repeat 
+    center center/cover ;
+    height: 100vh;
+    color: #fff;
+}
+
+#name{
+    position: absolute;
+    font-size: 100px;
+    margin-top: 0%;
+}
+#information{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 400px;
+    height: 200px;
+}
+#tickit{
+    background-image:linear-gradient(to right ,#000000,#941d0d);
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 5%;
+    border-radius: 50px;
+    opacity: 50%;
+}
+#btn a{
+    color: #fff;
+    position: absolute;
+    background-image:linear-gradient(to right ,#000000,#941d0d);
+    width: 180px;
+    height: 60px;
+    margin-top: 22%;
+    margin-left: 10%;
+    border-radius: 50px;
+    text-align: center;
+    padding-top:18px;
+    transition-duration:1s ;
+}
+#btn a:hover{
+    background-image:linear-gradient(to right ,#000000,#000000);
+    box-shadow: 0px 0px 18px red;
+    color: red;
+}
+#btn a:active{
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 18px rgb(0, 0, 0);
+}
+
+#showcase2{
+    position: relative;
+    color: #fff;
+    background:#000000;
+    height: 100vh;
+}
+#titlepicture{
+    position: absolute;
+    font-size: 70px;
+    padding-top: 0%;
+    padding-left: 5%;
+}
+
+#picture img{
+    position: absolute;
+    display: flex;
+    width: 30vw;
+    height: 37vh;
+    border: none;
+    border-radius: 20px;
+}
+
+#img1{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    box-shadow: 0px 0px 25px #ece929;
+}
+#img2{
+    position: absolute;
+    top: 13%;
+    right: 10%;
+    box-shadow: 0px 0px 25px #ff0000;
+}
+#img3{
+    position: absolute;
+    bottom: 7%;
+    left: 10%;
+    box-shadow: 0px 0px 25px #ff0000;
+}
+#img4{
+    position: absolute;
+    bottom: 7%;
+    right: 10%;
+    box-shadow: 0px 0px 25px #ece929;
+}
+
+#flash1{
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #ece929;
+    filter: blur(300px);
+}
+#flash2{
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    filter: blur(300px);
+}
+#flash3{
+    position: absolute;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color:#ece929;
+    filter: blur(300px);
+}
+#flash4{
+    position: absolute;
+    display: flex;
+    right: 0;
+    bottom: 0;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    filter: blur(300px);
+}
+#flash5{
+    position: absolute;
+    display: flex;
+    right: 42%;
+    bottom:25%;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    filter: blur(200px);
+}
+
+
+#showcase3{
+    position: relative;
+    color: #fff;
+    background:#000000;
+    height: 100vh;
+}
+#titlevideo{
+    position: absolute;
+    font-size: 70px;
+    padding-top: 0%;
+    padding-left: 5%;
+} 
+
+#showcase3 video{
+    position: absolute;
+    width: 47vw;
+    height: 70vh;
+    top:20%;
+    left:25%;
+    box-shadow: 0 0 25px red;
+    border-radius: 20px;
+}
