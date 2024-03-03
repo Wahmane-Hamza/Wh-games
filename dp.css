@@ -84,7 +84,7 @@ a{
 
 #showcase{
     background: #333
-    url('GOW.jpg') no-repeat 
+    url('image/GOW.jpg') no-repeat 
     center center/cover ;
     height: 100vh;
     color: #fff;
